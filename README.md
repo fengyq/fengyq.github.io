@@ -15,7 +15,7 @@ The website is hosted on GitHub Pages and can be accessed at: [https://fengyq.gi
 
 ### How to Update the Site
 Here's a simple step-by-step guide for the typical Git workflow after making changes to files:
-#### one lineer
+#### one liner
 ```bash
 git add .; git commit -m "add readme"; git pull origin main; git push origin main
 ```
