@@ -11,9 +11,10 @@ title: people
     }
 </style>
 
-Here are the members of the lab. [Contact me](mailto:fengyuanqing2010@gmail.com) to join.
+Here are the members of the lab. [Contact me](mailto:fengyuanqing2010@gmail.com) to join. Check out the [job ad for Principal Scientist](https://careers.gene.com/us/en/job/202411-129665/Principal-Scientist-Pathology).
 
 <div class="people-grid">
+
     <div class="person">
         <img src="https://example.com/cartoon1.png" alt="Person 1">
         <h3>Person 1</h3>

@@ -3,7 +3,7 @@ layout: default
 title: Publications
 ---
 
-# Publications
+# Publications <span style="font-weight: normal; font-size: 1rem; margin-left: 6rem;">(For a complete list of publications, please visit my <a href="https://scholar.google.com/citations?user=nWYWiVUAAAAJ&hl=en">Google Scholar profile</a>.)</span>
 
 <style>
     h1 {
@@ -12,6 +12,7 @@ title: Publications
 </style>
 
 <div class="publications-list">
+
     <div class="publication-item">
         <div class="pub-figure">
             <img src="../assets/pub_images/2024_NG_cover.png" alt="Nature Genetics cover showing skin pigmentation diversity in Africans" style="width: 100%; height: auto; object-fit: contain;">
@@ -158,8 +159,4 @@ title: Publications
             </div>
         </div>
     </div>
-</div>
-
-<div class="more-publications">
-    For a complete list of publications, please visit my <a href="https://scholar.google.com/citations?user=nWYWiVUAAAAJ&hl=en">Google Scholar profile</a>.
 </div>
