@@ -1,0 +1,14 @@
+<div class="news">
+    {% for item in site.data.news limit: include.limit %}
+    <div class="news-item">
+        <div class="news-date">{{ item.date }}</div>
+        <div class="news-content">{{ item.content }}</div>
+    </div>
+    {% endfor %}
+
+    {% if include.show_more %}
+    <div class="more-news" style="text-align: right; margin-top: 1rem;">
+        <a href="{{ site.baseurl }}/news" style="color: var(--link-color); text-decoration: none;">View all news →</a>
+    </div>
+    {% endif %}
+</div> 
