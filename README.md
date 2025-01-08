@@ -1,15 +1,6 @@
 # Yuanqing Feng's Personal Website
 
-Welcome to the personal website of Yuanqing Feng, a Research Associate at the University of Pennsylvania. This site showcases my research, publications, and professional journey, focusing on genetic mechanisms underlying human evolution, phenotypic diversity, and disease susceptibility.
-
-## Website Overview
-
-- **Home**: Introduction and overview of my research interests and background.
-- **Resume**: Detailed resume including education, research experience, awards, and technical skills.
-- **Research**: Information about current research areas and projects.
-- **Publications**: A list of my publications with links to full texts and additional resources.
-- **People**: Meet the team and collaborators.
-- **News**: Latest updates and news related to my research and professional activities.
+Welcome to the personal website of Yuanqing Feng. I am a scientist focusing on genetic mechanisms underlying human evolution, phenotypic diversity, and disease susceptibility.
 
 ## Technologies Used
 
@@ -21,6 +12,32 @@ Welcome to the personal website of Yuanqing Feng, a Research Associate at the Un
 ## How to View the Site
 
 The website is hosted on GitHub Pages and can be accessed at: [https://fengyq.github.io](https://fengyq.github.io)
+
+### How to Update the Site
+Here's a simple step-by-step guide for the typical Git workflow after making changes to files:
+
+1. **Check status of changes**:
+   ```bash
+   git status
+   ```
+
+2. **Add your changes**:
+   ```bash
+   # Add specific files
+   git add filename1 filename2
+
+   # Or add all changed files
+   git add .
+   ```
+
+3. **Commit and push**:
+   ```bash
+   git commit -m "Your descriptive message about the changes"
+
+   # Using rebase strategy (cleaner history)
+   git pull --rebase origin main
+   git push origin main
+   ```
 
 ## How to copy and run the site locally
 
@@ -45,6 +62,8 @@ To run this website locally, you need to have Jekyll installed on your machine. 
 
 4. **View the site**:
    Open your browser and go to `http://localhost:4000` to view the site locally.
+
+
 
 ## Contributing
 
