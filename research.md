@@ -82,23 +82,21 @@ title: Research
     <div>
         <h3>Genetics underlying human heart evolution and diseases</h3>
         <ul>
-            <li>Investigating the evolution of cardiac traits</li>
-            <li>Analyzing population-specific variants and their functional impacts</li>
-            <li>Developing therapeutic strategies for cardiac diseases</li>
+            <li>Investigating the evolution of cardiac traits in African populations</li>
+            <li>Analyzing population-specific adaptive variants and their impacts</li>
+            <li>Understanding mechanisms of parasite adaptation in African populations</li>
         </ul>
 
         <h3>African Skin Pigmentation Genetics</h3>
         <ul>
-            <li>Identifying genetic variants influencing skin pigmentation</li>
-            <li>Studying the evolutionary history of pigmentation genes</li>
-            <li>Understanding local adaptation mechanisms</li>
+            <li>Identifying variants influencing skin pigmentation</li>
+            <li>Studying the evolutionary history of African populations</li>
         </ul>
 
         <h3>Novel Methods Development</h3>
         <ul>
-            <li>Creating new tools for functional variant identification</li>
-            <li>Developing integrative approaches for multi-omics data analysis</li>
-            <li>Implementing machine learning methods for variant effect prediction</li>
+            <li>Developing integrative approaches for functional variant analysis</li>
+            <li>Implementing single-cell genomics for high-throughput screening</li>
         </ul>
     </div>
     <img src="https://via.placeholder.com/400x200?text=Heart+Evolution" alt="Heart Evolution Illustration">
