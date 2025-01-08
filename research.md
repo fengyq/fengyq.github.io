@@ -49,25 +49,26 @@ title: Research
 
 <div class="section">
     <div>
-        <h3>1. Non-coding Variants in Human Traits and Diseases</h3>
+        <h3>1. Functional Genomics and CRISPR Technology</h3>
         <ul>
-            <li>Developing and applying high-throughput methods to identify functional variants</li>
-            <li>Investigating the role of regulatory elements in human complex traits</li>
-            <li>Integrating multi-omics data to understand gene regulation mechanisms</li>
-        </ul>
-
-        <h3>2. Population Genetics and Human Evolution</h3>
-        <ul>
-            <li>Studying genetic adaptation of cardiac traits in diverse human populations</li>
-            <li>Analyzing genetic variants involved in skin pigmentation and local adaptation</li>
-        </ul>
-
-        <h3>3. Functional Genomics and CRISPR Technology</h3>
-        <ul>
+            <li>Integrating MPRA and Hi-C to study gene regulation</li>
             <li>Developing CRISPR-based methods for genome editing and screening</li>
-            <li>Utilizing MPRA and Hi-C to study gene regulation</li>
-            <li>Implementing bioinformatics pipelines for genomic data analysis</li>
+            <li>Implementing single-cell genomics for high-throughput functional screening</li>
         </ul>
+
+        <h3>2. Gene Regulatory Networks in Human Diseases</h3>
+        <ul>
+            <li>Screening regulatory variants in human diseases combined with GWAS</li>
+            <li>Integrating multi-omics data to understand gene regulation mechanisms in diseases</li>
+        </ul>
+
+        <h3>3. Population Genetics and Evolution</h3>
+        <ul>
+            <li>Studying genetic mechanisms of human adaptive evolution</li>
+            <li>Deciphering human evolution by comparing ancient genomes</li>
+            <li>Utilizing comparative genomics to understand evolution</li>
+        </ul>
+
     </div>
     <img src="https://via.placeholder.com/400x200?text=Genetic+Research" alt="Genetic Research Illustration">
 </div>
