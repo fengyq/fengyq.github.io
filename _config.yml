@@ -1,8 +1,8 @@
-title: Yuanqing Feng (冯元庆)
+title: Yuanqing Feng (冯园庆)
 email: Fengyuanqing2010@gmail.com
 description: >- 
   Research Associate at University of Pennsylvania, focusing on genetic mechanisms underlying human evolution, phenotypic diversity, and disease susceptibility.
-baseurl: "https://fengyq.github.io  " # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fengyq.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings

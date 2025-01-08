@@ -3,11 +3,9 @@ layout: default
 title: Research
 ---
 
-# Research
-
-Our research focuses on uncovering the genetic mechanisms underlying human evolution, phenotypic diversity, and disease susceptibility. We employ an integrative approach combining population genetics, functional genomics, and bioinformatics to identify and characterize functional mutations and their target genes.
-
 ## Research Areas
+
+Our research focuses on uncovering the **genetic mechanisms underlying human evolution, phenotypic diversity, and disease susceptibility**. We employ an integrative approach combining population genetics, functional genomics, and bioinformatics to identify and characterize functional mutations and their target genes.
 
 ### 1. Non-coding Variants in Human Traits and Diseases
 - Developing and applying high-throughput methods to identify functional non-coding variants
