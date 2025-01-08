@@ -30,7 +30,7 @@ title: Research
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
         margin: 1rem 0;
     }
 
@@ -39,6 +39,18 @@ title: Research
         width: 33%;
         height: auto;
         margin-left: 1rem;
+    }
+
+    /* Responsive layout */
+    @media (max-width: 768px) {
+        .section {
+            flex-direction: column;
+        }
+        img {
+            width: 100%;
+            margin-left: 0;
+            margin-top: 1rem;
+        }
     }
 </style>
 
@@ -68,9 +80,8 @@ title: Research
             <li>Deciphering human evolution by comparing ancient genomes</li>
             <li>Utilizing comparative genomics to understand evolution</li>
         </ul>
-
     </div>
-    <img src="https://via.placeholder.com/400x200?text=Genetic+Research" alt="Genetic Research Illustration">
+    <img src="assets/images/research1.jpg" alt="Genetic Research Illustration">
 </div>
 
 <div>
@@ -99,5 +110,5 @@ title: Research
             <li>Implementing single-cell genomics for high-throughput screening</li>
         </ul>
     </div>
-    <img src="https://via.placeholder.com/400x200?text=Heart+Evolution" alt="Heart Evolution Illustration">
+    <img src="assets/images/research2.jpg" alt="Heart Evolution Illustration">
 </div> 
