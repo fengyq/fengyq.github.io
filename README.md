@@ -36,6 +36,7 @@ Here's a simple step-by-step guide for the typical Git workflow after making cha
 
    # Using rebase strategy (cleaner history)
    git pull --rebase origin main
+   # or git pull origin main
    git push origin main
    ```
 
