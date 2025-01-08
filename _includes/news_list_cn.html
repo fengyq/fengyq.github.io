@@ -1,0 +1,17 @@
+{% assign news_items = site.data.news_cn %}
+{% assign display_limit = include.limit | default: 100 %}
+
+<div class="news">
+    {% for item in news_items limit:display_limit %}
+    <div class="news-item">
+        <div class="news-date">{{ item.date }}</div>
+        <div class="news-content">{{ item.content }}</div>
+    </div>
+    {% endfor %}
+
+    {% if include.show_more and news_items.size > display_limit %}
+    <div class="more-news">
+        <a href="{{ site.baseurl }}/news">查看更多新闻...</a>
+    </div>
+    {% endif %}
+</div> 

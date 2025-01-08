@@ -56,32 +56,35 @@ h2 {
 .header-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0.4rem 2rem;  /* Reduced padding for smaller height */
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-nav {
     display: flex;
-    justify-content: center;
+    gap: 1.5rem;
     align-items: center;
-    padding: 1rem 0;
+    padding: 0.5rem 0; 
 }
 
 .main-nav a {
-    font-size: 1.4rem;
+    color: #2c3e50;
     text-decoration: none;
-    margin: 0 1.5rem;
-    color: #333;
-    padding-bottom: 0.3rem;
-    transition: all 0.3s ease;
+    font-size: 1.3rem; 
+    font-weight: 500;
+    padding: 0.2rem 1rem;  
+    transition: color 0.2s ease;
 }
 
 .main-nav a.active {
-    color: #ff0000;
-    border-bottom: 2px solid #ff0000;
+    color: #b80606;
+    border-bottom: 2px solid #b80606;
 }
 
 .main-nav a:hover {
-    color: #ff0000;
+    color: #b80606;
 }
 
 /* Content */
@@ -281,12 +284,12 @@ h2 {
     }
 
     .main-nav {
-        gap: 1rem;
+        gap: 0.5rem;
     }
 
     .main-nav a {
-        font-size: 1.4rem;
-        margin: 0 1rem;
+        font-size: 1rem;
+        margin: 0 0.5rem;
     }
 
     .content {
@@ -313,13 +316,13 @@ h2 {
 
 @media (max-width: 480px) {
     .main-nav {
-        gap: 0.5rem;
+        gap: 0.3rem;
     }
 
     .main-nav a {
-        font-size: 1.4rem;
+        font-size: 0.9rem;
         padding: 0.3rem;
-        margin: 0 0.5rem;
+        margin: 0 0.3rem;
     }
 
     .social-icons {
@@ -712,5 +715,41 @@ a:hover {
     .award-item {
         flex-direction: column;
         gap: 0.5rem;
+    }
+}
+
+/* Language switch button */
+.lang-switch {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    z-index: 1001;
+}
+
+.lang-switch a {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.lang-switch a:hover {
+    background-color: #f5f5f5;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .lang-switch {
+        top: 0.5rem;
+        right: 1rem;
+    }
+    
+    .lang-switch a {
+        padding: 0.3rem 0.7rem;
+        font-size: 0.8rem;
     }
 } 

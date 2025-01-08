@@ -3,6 +3,10 @@ layout: default
 title: Home
 ---
 
+<div class="lang-switch">
+    <a href="/cn/">中文</a>
+</div>
+
 <style>
     /* Responsive adjustments */
     .profile-section {

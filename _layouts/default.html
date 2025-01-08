@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{% if page.url contains '_cn' %}zh{% else %}en{% endif %}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,11 +12,9 @@
     <header class="site-header">
         <div class="header-container">
             <nav class="main-nav">
-                <a href="{{ site.baseurl }}/" {% if page.url == "/" %}class="active"{% endif %}>Home</a>
-                <a href="{{ site.baseurl }}/research" {% if page.url == "/research/" %}class="active"{% endif %}>Research</a>
-                <a href="{{ site.baseurl }}/publications" {% if page.url == "/publications/" %}class="active"{% endif %}>Publications</a>
-                <a href="{{ site.baseurl }}/people" {% if page.url == "/people/" %}class="active"{% endif %}>People</a>
-                <a href="{{ site.baseurl }}/news" {% if page.url == "/news/" %}class="active"{% endif %}>News</a>
+                {% for item in site.navigation %}
+                <a href="{{ site.baseurl }}{{ item.url }}" {% if page.url == item.url %}class="active"{% endif %}>{{ item.title }}</a>
+                {% endfor %}
             </nav>
         </div>
     </header>

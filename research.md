@@ -61,27 +61,29 @@ title: Research
 
 <div class="section">
     <div>
-        <h3>1. Functional Genomics and CRISPR Technology</h3>
+
+        <h3>1. Population Genetics and Evolution</h3>
+        <ul>
+            <li>Studying genetic mechanisms of human adaptive evolution</li>
+            <li>Deciphering human evolution by comparing ancient genomes</li>
+            <li>Utilizing comparative genomics to understand evolution</li>
+        </ul>
+
+        <h3>2. Functional Genomics and CRISPR Technology</h3>
         <ul>
             <li>Integrating MPRA and Hi-C to study gene regulation</li>
             <li>Developing CRISPR-based methods for genome editing and screening</li>
             <li>Implementing single-cell genomics for high-throughput functional screening</li>
         </ul>
 
-        <h3>2. Gene Regulatory Networks in Human Diseases</h3>
+        <h3>3. Gene Regulatory Networks in Human Diseases</h3>
         <ul>
             <li>Screening regulatory variants in human diseases combined with GWAS</li>
             <li>Integrating multi-omics data to understand gene regulation mechanisms in diseases</li>
         </ul>
 
-        <h3>3. Population Genetics and Evolution</h3>
-        <ul>
-            <li>Studying genetic mechanisms of human adaptive evolution</li>
-            <li>Deciphering human evolution by comparing ancient genomes</li>
-            <li>Utilizing comparative genomics to understand evolution</li>
-        </ul>
     </div>
-    <img src="assets/images/research1.jpg" alt="Genetic Research Illustration">
+    <img src="../assets/pub_images/project2.jpg" alt="Genetic Research Illustration">
 </div>
 
 <div>
@@ -91,24 +93,25 @@ title: Research
 
 <div class="section">
     <div>
-        <h3>Genetics underlying human heart evolution and diseases</h3>
+
+        <h3>1. Genetics underlying human heart evolution and diseases</h3>
         <ul>
             <li>Investigating the evolution of cardiac traits in African populations</li>
             <li>Analyzing population-specific adaptive variants and their impacts</li>
             <li>Understanding mechanisms of parasite adaptation in African populations</li>
         </ul>
 
-        <h3>African Skin Pigmentation Genetics</h3>
+        <h3>2. African Skin Pigmentation Genetics</h3>
         <ul>
             <li>Identifying variants influencing skin pigmentation</li>
             <li>Studying the evolutionary history of African populations</li>
         </ul>
 
-        <h3>Novel Methods Development</h3>
+        <h3>3. Novel Methods Development</h3>
         <ul>
             <li>Developing integrative approaches for functional variant analysis</li>
             <li>Implementing single-cell genomics for high-throughput screening</li>
         </ul>
     </div>
-    <img src="assets/images/research2.jpg" alt="Heart Evolution Illustration">
+    <img src="../assets/pub_images/project1.jpg" alt="Heart Evolution Illustration">
 </div> 

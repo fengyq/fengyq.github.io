@@ -28,11 +28,15 @@
     <header class="site-header">
         <div class="header-container">
             <nav class="main-nav">
+                
                 <a href="/" >Home</a>
-                <a href="/research" class="active">Research</a>
-                <a href="/publications" >Publications</a>
-                <a href="/people" >People</a>
-                <a href="/news" >News</a>
+                
+                <a href="/research/" class="active">Research</a>
+                
+                <a href="/publications/" >Publication</a>
+                
+                <a href="/people/" >People</a>
+                
             </nav>
         </div>
     </header>
@@ -65,7 +69,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
         margin: 1rem 0;
     }
 
@@ -74,6 +78,18 @@
         width: 33%;
         height: auto;
         margin-left: 1rem;
+    }
+
+    /* Responsive layout */
+    @media (max-width: 768px) {
+        .section {
+            flex-direction: column;
+        }
+        img {
+            width: 100%;
+            margin-left: 0;
+            margin-top: 1rem;
+        }
     }
 </style>
 
@@ -84,27 +100,29 @@
 
 <div class="section">
     <div>
-        <h3>1. Non-coding Variants in Human Traits and Diseases</h3>
+
+        <h3>1. Population Genetics and Evolution</h3>
         <ul>
-            <li>Developing and applying high-throughput methods to identify functional non-coding variants</li>
-            <li>Investigating the role of regulatory elements in human complex traits</li>
-            <li>Integrating multi-omics data to understand gene regulation mechanisms</li>
+            <li>Studying genetic mechanisms of human adaptive evolution</li>
+            <li>Deciphering human evolution by comparing ancient genomes</li>
+            <li>Utilizing comparative genomics to understand evolution</li>
         </ul>
 
-        <h3>2. Population Genetics and Human Evolution</h3>
+        <h3>2. Functional Genomics and CRISPR Technology</h3>
         <ul>
-            <li>Studying genetic adaptation of cardiac traits in diverse human populations</li>
-            <li>Analyzing genetic variants involved in skin pigmentation and local adaptation</li>
-        </ul>
-
-        <h3>3. Functional Genomics and CRISPR Technology</h3>
-        <ul>
+            <li>Integrating MPRA and Hi-C to study gene regulation</li>
             <li>Developing CRISPR-based methods for genome editing and screening</li>
-            <li>Utilizing MPRA and Hi-C to study gene regulation</li>
-            <li>Implementing bioinformatics pipelines for genomic data analysis</li>
+            <li>Implementing single-cell genomics for high-throughput functional screening</li>
         </ul>
+
+        <h3>3. Gene Regulatory Networks in Human Diseases</h3>
+        <ul>
+            <li>Screening regulatory variants in human diseases combined with GWAS</li>
+            <li>Integrating multi-omics data to understand gene regulation mechanisms in diseases</li>
+        </ul>
+
     </div>
-    <img src="https://via.placeholder.com/400x200?text=Genetic+Research" alt="Genetic Research Illustration" />
+    <img src="../assets/pub_images/project2.jpg" alt="Genetic Research Illustration" />
 </div>
 
 <div>
@@ -114,28 +132,27 @@
 
 <div class="section">
     <div>
-        <h3>Genetics underlying human heart evolution and diseases</h3>
+
+        <h3>1. Genetics underlying human heart evolution and diseases</h3>
         <ul>
-            <li>Investigating the evolution of cardiac traits</li>
-            <li>Analyzing population-specific variants and their functional impacts</li>
-            <li>Developing therapeutic strategies for cardiac diseases</li>
+            <li>Investigating the evolution of cardiac traits in African populations</li>
+            <li>Analyzing population-specific adaptive variants and their impacts</li>
+            <li>Understanding mechanisms of parasite adaptation in African populations</li>
         </ul>
 
-        <h3>African Skin Pigmentation Genetics</h3>
+        <h3>2. African Skin Pigmentation Genetics</h3>
         <ul>
-            <li>Identifying genetic variants influencing skin pigmentation</li>
-            <li>Studying the evolutionary history of pigmentation genes</li>
-            <li>Understanding local adaptation mechanisms</li>
+            <li>Identifying variants influencing skin pigmentation</li>
+            <li>Studying the evolutionary history of African populations</li>
         </ul>
 
-        <h3>Novel Methods Development</h3>
+        <h3>3. Novel Methods Development</h3>
         <ul>
-            <li>Creating new tools for functional variant identification</li>
-            <li>Developing integrative approaches for multi-omics data analysis</li>
-            <li>Implementing machine learning methods for variant effect prediction</li>
+            <li>Developing integrative approaches for functional variant analysis</li>
+            <li>Implementing single-cell genomics for high-throughput screening</li>
         </ul>
     </div>
-    <img src="https://via.placeholder.com/400x200?text=Heart+Evolution" alt="Heart Evolution Illustration" />
+    <img src="../assets/pub_images/project1.jpg" alt="Heart Evolution Illustration" />
 </div>
 
     </main>

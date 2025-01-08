@@ -15,13 +15,9 @@ plugins:
 navigation:
   - title: Home
     url: /
-  - title: Resume
-    url: /resume/
   - title: Research
     url: /research/
-  - title: Projects
-    url: /projects/
-  - title: Publications
+  - title: Publication
     url: /publications/
   - title: People
     url: /people/
@@ -33,6 +29,7 @@ social_links:
   linkedin: yuanqing-feng-a4384477
   twitter: FengYuanqing
   wechat: FengYuanqing
+
 # Other settings
 show_excerpts: true 
 permalink: /:categories/:year/:month/:day/:title/   
