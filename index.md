@@ -81,6 +81,6 @@ title: Home
         </div>
     </div>
 
-    # <span id="recent-news">Recent News</span>
+    <h2><span style="color: #2c3e50; font-weight: 600;" id="recent-news">Recent News</span></h2>
     {% include news_list.html limit=3 show_more=true %}
 </div>
