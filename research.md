@@ -51,7 +51,7 @@ title: Research
     <div>
         <h3>1. Non-coding Variants in Human Traits and Diseases</h3>
         <ul>
-            <li>Developing and applying high-throughput methods to identify functional non-coding variants</li>
+            <li>Developing and applying high-throughput methods to identify functional variants</li>
             <li>Investigating the role of regulatory elements in human complex traits</li>
             <li>Integrating multi-omics data to understand gene regulation mechanisms</li>
         </ul>
