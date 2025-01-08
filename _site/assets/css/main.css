@@ -722,7 +722,7 @@ a:hover {
 /* Language switch button */
 .lang-switch {
     position: absolute;
-    top: 6rem;
+    top: 4rem;
     right: 1rem;
     margin: 0;
     z-index: 1;

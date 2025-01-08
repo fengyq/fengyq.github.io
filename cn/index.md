@@ -35,8 +35,7 @@ title: 主页
     /* Content container */
     .content-wrapper {
         position: relative;
-        padding-top: 2rem;
-    }
+        padding-top: 1rem;    
 
     /* Responsive layout for mobile */
     @media (max-width: 768px) {
