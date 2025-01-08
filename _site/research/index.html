@@ -71,24 +71,32 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
         margin: 1rem 0;
     }
 
     /* Visual elements */
     img {
-        width: 33%;
+        width: 28%;
         height: auto;
         margin-left: 1rem;
+        display: block;
+        object-fit: contain;
+    }
+
+    /* Container for text content */
+    .section > div {
+        flex: 1;
     }
 
     /* Responsive layout */
     @media (max-width: 768px) {
         .section {
             flex-direction: column;
+            align-items: center;
         }
         img {
-            width: 100%;
+            width: 80%;
             margin-left: 0;
             margin-top: 1rem;
         }
