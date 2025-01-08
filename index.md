@@ -38,7 +38,7 @@ title: Home
     /* Content container */
     .content-wrapper {
         position: relative;
-        padding-top: 2rem;
+        padding-top: 0.5rem;
     }
 
     /* Responsive layout for mobile */
