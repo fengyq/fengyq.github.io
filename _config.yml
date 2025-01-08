@@ -17,10 +17,12 @@ navigation:
     url: /
   - title: Research
     url: /research/
-  - title: Publication
+  - title: Publications
     url: /publications/
   - title: People
     url: /people/
+  - title: News
+    url: /news/
 
 # Social links
 social_links:
