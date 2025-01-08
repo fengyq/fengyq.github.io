@@ -1,56 +1,61 @@
-# My Jekyll Site
+# Yuanqing Feng's Personal Website
 
-Welcome to my Jekyll site hosted on GitHub Pages!
+Welcome to the personal website of Yuanqing Feng, a Research Associate at the University of Pennsylvania. This site showcases my research, publications, and professional journey, focusing on genetic mechanisms underlying human evolution, phenotypic diversity, and disease susceptibility.
 
-## About
+## Website Overview
 
-This is a static website built using [Jekyll](https://jekyllrb.com/), a simple, blog-aware, static site generator. The site is hosted on [GitHub Pages](https://pages.github.com/).
+- **Home**: Introduction and overview of my research interests and background.
+- **Resume**: Detailed resume including education, research experience, awards, and technical skills.
+- **Research**: Information about current research areas and projects.
+- **Publications**: A list of my publications with links to full texts and additional resources.
+- **People**: Meet the team and collaborators.
+- **News**: Latest updates and news related to my research and professional activities.
 
-## Features
+## Technologies Used
 
-- **Responsive Design**: The site is designed to be responsive and accessible on all devices.
-- **Customizable**: Easily customizable with Jekyll's templating system.
-- **Markdown Support**: Write your content in Markdown.
+- **Jekyll**: Static site generator used to build the website.
+- **HTML/CSS**: For structuring and styling the website.
+- **Font Awesome**: For icons used throughout the site.
+- **GitHub Pages**: Hosting platform for the website.
 
-## Installation
+## How to View the Site
 
-To run this site locally, follow these steps:
+The website is hosted on GitHub Pages and can be accessed at: [https://fengyq.github.io](https://fengyq.github.io)
 
-1. **Clone the Repository**:
+## How to copy and run the site locally
+
+To run this website locally, you need to have Jekyll installed on your machine. Follow these steps:
+
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/username/repository.git
+   git clone https://github.com/fengyq/fengyq.github.io.git
+   cd fengyq.github.io
    ```
-2. **Navigate to the Directory**:
-   ```bash
-   cd repository
-   ```
-3. **Install Jekyll and Bundler**:
-   ```bash
-   gem install jekyll bundler
-   ```
-4. **Install Dependencies**:
+
+2. **Install dependencies**:
+   Make sure you have Ruby and Bundler installed, then run:
    ```bash
    bundle install
    ```
-5. **Serve the Site**:
+
+3. **Serve the site**:
    ```bash
    bundle exec jekyll serve
    ```
-   The site will be available at `http://localhost:4000`.
 
-## Usage
-
-- **Adding Content**: Add your content in the `_posts` directory.
-- **Customization**: Modify the `_config.yml` file to customize your site settings.
+4. **View the site**:
+   Open your browser and go to `http://localhost:4000` to view the site locally.
 
 ## Contributing
 
-Feel free to fork this repository and submit pull requests. Contributions are welcome!
+If you have suggestions or improvements, feel free to open an issue or submit a pull request. Contributions are welcome!
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-For any inquiries, please contact me at [your-email@example.com](mailto:your-email@example.com).
+For any inquiries, please contact me at [Fengyuanqing2010@gmail.com](mailto:Fengyuanqing2010@gmail.com).
+
+---
