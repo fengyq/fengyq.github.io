@@ -3,7 +3,50 @@ layout: default
 title: Home
 ---
 
-# <span style="color: #2c3e50;">**Yuanqing Feng (冯园庆)**</span>
+<style>
+    /* Responsive adjustments */
+    .profile-section {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 2rem;
+        text-align: left;
+    }
+    .profile-text {
+        flex: 2;
+    }
+    .profile-image {
+        flex: 1;
+    }
+    .profile-image img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    /* Font size adjustments */
+    h1 span {
+        font-size: 1.5rem;
+    }
+    h2, h3, h4, h5, h6 {
+        font-size: 1.2rem;
+    }
+    #recent-news {
+        font-size: 1.2rem;
+    }
+
+    /* Responsive layout for mobile */
+    @media (max-width: 768px) {
+        .profile-section {
+            flex-direction: column;
+        }
+        .profile-image {
+            order: -1;
+        }
+    }
+</style>
+
+# <span style="color: #2c3e50; font-size: 1.5rem;">**Yuanqing Feng (冯园庆)**</span>
 
 <div class="profile-section">
     <div class="profile-text">
@@ -27,5 +70,5 @@ title: Home
     </div>
 </div>
 
-# Recent News
+# <span id="recent-news">Recent News</span>
 {% include news_list.html limit=3 show_more=true %}

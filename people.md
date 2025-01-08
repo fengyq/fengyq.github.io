@@ -5,6 +5,12 @@ title: people
 
 # Meet the team!
 
+<style>
+    h1 {
+        font-size: 1.5rem; /* Adjusted font size for Meet the team! */
+    }
+</style>
+
 Here are the members of the lab. [Contact me](mailto:fengyuanqing2010@gmail.com) to join.
 
 <div class="people-grid">

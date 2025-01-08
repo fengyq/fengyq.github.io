@@ -5,6 +5,12 @@ title: Publications
 
 # Publications
 
+<style>
+    h1 {
+        font-size: 1.5rem; /* Adjusted font size for Publications */
+    }
+</style>
+
 <div class="publications-list">
     <div class="publication-item">
         <div class="pub-figure">

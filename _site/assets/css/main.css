@@ -61,44 +61,27 @@ h2 {
 
 .main-nav {
     display: flex;
-    gap: 2rem;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem 0;
 }
 
 .main-nav a {
+    font-size: 1.4rem;
     text-decoration: none;
-    color: var(--text-color);
-    font-size: 1rem;
-    font-weight: 500;
-    transition: all 0.2s ease;
-    padding: 0.3rem 0;  /* Reduced padding for smaller height */
-    position: relative;
-}
-
-.main-nav a::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: var(--primary-color);
-    transform: scaleX(0);
-    transition: transform 0.2s ease;
-}
-
-.main-nav a:hover::after,
-.main-nav a.active::after {
-    transform: scaleX(1);
-}
-
-.main-nav a:hover {
-    color: var(--primary-color);
+    margin: 0 1.5rem;
+    color: #333;
+    padding-bottom: 0.3rem;
+    transition: all 0.3s ease;
 }
 
 .main-nav a.active {
-    color: var(--primary-color);
+    color: #ff0000;
+    border-bottom: 2px solid #ff0000;
+}
+
+.main-nav a:hover {
+    color: #ff0000;
 }
 
 /* Content */
@@ -302,7 +285,8 @@ h2 {
     }
 
     .main-nav a {
-        font-size: 1rem;
+        font-size: 1.4rem;
+        margin: 0 1rem;
     }
 
     .content {
@@ -333,7 +317,9 @@ h2 {
     }
 
     .main-nav a {
+        font-size: 1.4rem;
         padding: 0.3rem;
+        margin: 0 0.5rem;
     }
 
     .social-icons {
